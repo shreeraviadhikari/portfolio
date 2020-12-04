@@ -1,0 +1,40 @@
+body{
+  background: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70%;
+  width: 80%;
+}
+
+li.sidebar-items{
+  list-style: none;
+  padding-top: 10%;
+  color: #049abf;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Helvetika";
+}
+
+.description-body{
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  display: flex;
+}
+
+#description-text{
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  border-radius: 50px;
+
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  margin-top: 50px;
+  padding-left: 2px;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid white;
+}
