@@ -15,7 +15,7 @@
           gradient="to top right, rgba(100,115,201,.6), rgba(25,32,72,.8)"
         ></v-img>
       </template>
-      <v-app-bar-title>Ravi Adhikari</v-app-bar-title>
+      <v-app-bar-title style="width: 500px;">Ravi Adhikari</v-app-bar-title>
       <v-spacer></v-spacer>
       <v-text-field
         placeholder="Search Blogs"
@@ -87,6 +87,8 @@
 // }
 </style>
 
-<style lang="stylus" scoped>
-
+<style scoped>
+.forced-width {
+  width: 500px;
+}
 </style>
